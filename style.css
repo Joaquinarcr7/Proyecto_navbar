@@ -55,14 +55,14 @@ body{
     background-color: #333333;
 }
 main{
-    margin-top: 70px;
+    margin-top: 300px;
 }
 div{
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    gap: 2vh;
+    gap:400px;
 
 }
 .section1{
@@ -80,6 +80,7 @@ div{
 .section1 h1{
     font-size: 40px;
 }
+
 .section2{
     padding:1.5em;
     width: 90%;
@@ -91,6 +92,12 @@ div{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.textito_Section{  
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column
 }
 .imagen{
     width: 350px;
