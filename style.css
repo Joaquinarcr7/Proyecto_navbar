@@ -1,28 +1,32 @@
 *{
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    font-family:monospace;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 50px;
-    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg);
+    background-image: url(https://get.wallhere.com/photo/black-dark-abstract-3D-red-fire-triangle-orange-light-flame-darkness-font-geological-phenomenon-60525.jpg);
 }
 .header{
-    background-color: darkcyan;
-    height: 65px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333 , #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 70px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-}
+    }
 .nav{
     display: flex;
     justify-content: space-between;
-   
+    align-items: center;
 }
 .link{
     color: black;
     text-decoration: none;
+    font-weight: bold;
 }
 .menu{
     display: flex;
@@ -32,19 +36,79 @@ body{
 .menu_nav{
     padding: 8px 10px;
     font-size: 16px;
-    margin: 0 10px;
-    line-height: 50px;
-    width: max-content;
-    
+    margin: 15px 10px;
 } 
 .menu_nav:hover{
-    background-color: aqua;
+    background-color: rgb(187, 70, 70);
     transition: 0.5s;
 }
-.imagen{
-    width: 100px;
-    height: 65px;
+.logo{
+    color: #dd1818;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin: 0 10px;
+    
 }
 .logo:hover{
-    background-color: aquamarine;
+    background-color: #333333;
+}
+main{
+    margin-top: 70px;
+}
+div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+.section1{
+    width: 50%;
+    height: 100px;
+    border-radius: 10px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333 , #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1 h1{
+    font-size: 40px;
+}
+.section2{
+    padding:1.5em;
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333 , #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.imagen{
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 0 5px #333333;
+}
+.section3{
+    padding: 0.5em;
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333 , #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
 }
