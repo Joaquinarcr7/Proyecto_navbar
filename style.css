@@ -57,13 +57,12 @@ body{
 main{
     margin-top: 300px;
 }
-div{
+.main{
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    gap:400px;
-
+    gap: 400px;
 }
 .section1{
     width: 50%;
@@ -118,4 +117,80 @@ div{
     justify-content: center;
     align-items: center;
     opacity: 0.7;
+}
+.beneficios{
+    padding: 0.5em;
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333 , #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.habilidad1{
+    padding: 0.5em;
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333 , #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.8;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+.Servicio{
+    padding: 0.5em;
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333 , #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pasos{
+    
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+.pasoapaso{
+    padding: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333 , #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.proceso{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+.img{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+
 }
